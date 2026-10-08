@@ -1,0 +1,12 @@
+namespace TestProject
+{
+    public class TestVuln
+    {
+        private string password = "Admin@123";
+
+        public bool Login(string pwd)
+        {
+            return pwd == password;
+        }
+    }
+}
